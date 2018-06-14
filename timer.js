@@ -4,10 +4,13 @@ const button2 = document.getElementById('button2');
 const timer = (givenNumber) => {
   let count = givenNumber;
   const printCount = () => {
-    let interval;
+    if(count === 1){
+        clearInterval(interval)
+    }
     console.log(count);
     count -= 1;
   }
+  let interval;
   button1.addEventListener('click', () => {
                             interval = setInterval(printCount, 1000);
                          });

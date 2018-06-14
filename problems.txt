@@ -1,0 +1,6 @@
+* Fetch json data rom api
+* Filter data by:
+    Type
+    Subject
+    Type & Subject
+* Find unique types of data & their count.

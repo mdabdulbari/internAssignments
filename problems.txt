@@ -4,3 +4,6 @@
     Subject
     Type & Subject
 * Find unique types of data & their count.
+
+Weekend assignment:
+    
